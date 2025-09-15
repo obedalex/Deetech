@@ -11,6 +11,13 @@ library.add(fas, far, fab)
 
 const Footer = () => {
   return (
+    <>
+    <div className='flex justify-center' >
+      <FontAwesomeIcon icon="fas- fa-truck-fast" /><p>Fast delivery</p><p>All deliveries within 24 hrs</p>
+      <FontAwesomeIcon icon="fas- fa-truck-fast" /><p>Money Guaranteed</p><p>3 Day Money Back</p>
+      <FontAwesomeIcon icon="fas- fa-truck-fast" /><p>Online Support 24/7</p><p>Technical support 24/7</p>
+      <FontAwesomeIcon icon="fas- fa-truck-fast" /><p>Secure payment</p><p>All payments accepted</p>
+    </div>
     <footer className='footer'>
       <p>&copy; 2025 Deetech. All rights reserved.</p>
       <div className='social-icons'>
@@ -28,6 +35,8 @@ const Footer = () => {
         </a>
       </div>
     </footer>
+    </>
+
   );
 };
 
@@ -51,3 +60,6 @@ export default Footer;
 //       </div>
 //     </footer>
 //   );
+
+
+

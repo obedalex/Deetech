@@ -1,18 +1,22 @@
-import React from 'react'
-// import '../Components/Navbar.css'
+import React from "react";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
   return (
-  <nav className="flex justify-between items-center px-6 py-4 bg-gray-100">
-  <a className="text-xl font-bold text-blue-600">Deetech Computers</a>
-  <ul className="flex gap-6 text-sm text-gray-700">
-    <li><a href="#">Student/Budget Friendly laptops</a></li>
-    <li><a href="#">Laptops</a></li>
-    <li><a href="#">Contact Us</a></li>
-  </ul>
-</nav>
-  )
+    <nav className="flex justify-center items-center h-16 bg-pink-300 font-serif gap-12">
+      <Link to="/" className="text-blue-500 font-bold">
+        Deetech Computers
+      </Link>
+      <ul className="flex gap-6 list-none">
+        <li><Link to="/budget">Student/Budget Friendly Laptops</Link></li>
+        <li><Link to="/laptops">Laptops</Link></li>
+        <li><Link to="/contact">Contacts</Link></li>
+      </ul>
+    </nav>
+  );
 }
+
+
 
 export default Navbar;

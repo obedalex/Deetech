@@ -2,7 +2,7 @@ import React from "react";
 import HeroSection from "../Components/HeroSection";
 import LaptopCategories from "../Components/LaptopCategories";
 import StudentSection from "../Components/Studentsection";
-import CallToAction from 
+import CallToAction from "../Components/CallToAction"
 import Footer from "../Components/Footer";
 
 
@@ -12,7 +12,7 @@ import Footer from "../Components/Footer";
     <main>
       <HeroSection />
       <LaptopCategories />
-      <StudentsSection /> {/* Optional preview */}
+      <StudentSection /> {/* Optional preview */}
       <CallToAction />
       <Footer />
     </main>

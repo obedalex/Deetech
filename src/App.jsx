@@ -12,7 +12,7 @@ import About from "./pages/About";
 
 // Styles and Data
 import "./App.css";
-import { laptops } from "./stdlaptop"; // Changed import to lowercase to match actual file name
+import { laptops } from "./data/stdlaptop"; // Changed import to lowercase to match actual file name
 
 function App() {
   return (
