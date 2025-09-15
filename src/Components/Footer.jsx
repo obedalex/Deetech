@@ -12,13 +12,13 @@ library.add(fas, far, fab)
 const Footer = () => {
   return (
     <>
-    <div className='flex justify-center' >
+    <div className='flex justify-center bg-green-400' >
       <FontAwesomeIcon icon="fas- fa-truck-fast" /><p>Fast delivery</p><p>All deliveries within 24 hrs</p>
       <FontAwesomeIcon icon="fas- fa-truck-fast" /><p>Money Guaranteed</p><p>3 Day Money Back</p>
       <FontAwesomeIcon icon="fas- fa-truck-fast" /><p>Online Support 24/7</p><p>Technical support 24/7</p>
       <FontAwesomeIcon icon="fas- fa-truck-fast" /><p>Secure payment</p><p>All payments accepted</p>
     </div>
-    <footer className='footer'>
+    <footer className='flex justify-center bg-blue-500'>
       <p>&copy; 2025 Deetech. All rights reserved.</p>
       <div className='social-icons'>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">

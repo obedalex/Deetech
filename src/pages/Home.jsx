@@ -11,8 +11,6 @@ import Footer from "../Components/Footer";
   return (
     <main>
       <HeroSection />
-      <LaptopCategories />
-      <StudentSection /> {/* Optional preview */}
       <CallToAction />
       <Footer />
     </main>
